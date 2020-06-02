@@ -1,0 +1,43 @@
+.navbar-brand {
+  background-color: rgb(84, 177, 146);
+  color: white;
+  padding: 1rem 1rem;
+  font-size: large;
+}
+
+.navbar {
+  background-color: white;
+  color: gray;
+  border-bottom: 1px solid black;
+}
+.nav-link {
+  color: gray;
+}
+
+body {
+  background-image: url(href="https://www.freepik.com/free-photos-vectors/background")
+}
+/* Backgroundphotocreatedbyrawpixel.com-www.freepik.com */
+h2 {
+  color: rgb(84, 177, 146);
+  padding: 10px;
+  font-family: serif;
+  font-weight: bold;
+}
+.col-sm-6 .row {
+  border: 1px solid lightgray;
+  background-color: white;
+}
+footer {
+  border-top: 3px solid rgb(84, 177, 146);
+  text-align: center;
+  background-color: dimgray;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.cprt {
+  color: white;
+  font-size: smaller;
+}

@@ -35,8 +35,10 @@ footer {
   text-align: center;
   background-color: dimgray;
   padding: 20px;
-  position: absolute;
+  position: relative;
   bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
 }
 .cprt {
@@ -67,7 +69,33 @@ padding-right: 10px;
   background-color: rgb(84, 177, 146);
   color:white
 }
+a {
+  color: inherit;
+}
+.thumbnail{
+  position: relative;
+}
+.caption{
+  position: absolute;
+  top: 75%;
+  left:0;
+  width:100%;
+  background-color:rgb(84, 177, 146);
+  right: 0;
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.img-responsive{
+  width:100%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
 
+}
  @media only screen and (max-width: 575px){
      .navbar-nav>li{
          border-right:0px

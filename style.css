@@ -20,7 +20,8 @@
 }
 
 body {
-    background-image: url('./Images/gtpfbg.jpg')
+    background-image: url('./Images/gtpfbg.jpg');
+    margin-bottom: 7rem;
 }
 
 h2 {
@@ -33,17 +34,14 @@ h2 {
 
 footer {
   border-top: .75rem solid rgb(84, 177, 146);
-  height: 5rem;
+  min-height: 5rem;
   background-color: dimgray;
   position: absolute;
   bottom: 0;
-  left: 0;
-  right: 0;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 4rem;
 }
 
 .cprt {

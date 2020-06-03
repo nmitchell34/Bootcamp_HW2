@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    \
+    <title>Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -13,5 +15,48 @@
     />
     <link rel="stylesheet" href="style.css">
   </head>
-  <body></body>
+  <body>
+   <!-- Setting up Navbar -->
+   <nav class="navbar navbar-expand-sm navbar-light">
+    <!-- Applied Container because it looks like the "Your Name" part is lined up with the about me part -->
+    <div class="container">
+      <!-- Changed name to Nick Mitchell, may take link away -->
+      <h1 class="navbar-brand">Nick Mitchell</h1>
+      <button
+        class="navbar-toggler my-2 my-lg-0"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <!-- Toggler is what appears when screen is shrinked, need to fix icon. -->
+        <span class="navbar-toggler-icon navbar-light bg-light"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto float-right text-right pr-3">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              >About </a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br />
+  <br>
+
+
+  <footer>
+    <p class="cprt">@ Copyright</p>
+  </footer>
+  </body>
 </html>

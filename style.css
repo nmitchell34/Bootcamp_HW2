@@ -1,0 +1,67 @@
+.navbar-brand {
+  background-color: rgb(84, 177, 146);
+  color: white;
+  padding: 1rem 1rem;
+  font-size: 34px;
+  font-family: serif;
+  font-weight: 40%;
+  margin: 0px;
+}
+
+.navbar.navbar-expand-sm.navbar-light {
+  background-color: white;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.nav-link {
+  color: gray;
+}
+
+body {
+    background-image: url('./Images/gtpfbg.jpg')
+}
+
+h2 {
+  color: rgb(90, 145, 126);
+  padding: 10px;
+  font-family: serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer {
+  border-top: 10px solid rgb(84, 177, 146);
+  text-align: center;
+  background-color: dimgray;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.cprt {
+  color: lightgray;
+  font-size: smaller;
+}
+.rounded.float-left{
+padding-right: 10px;
+
+}
+.navbar-nav>li{
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+.navbar-nav>li:last-child{
+    border: none;
+ }
+ .row.border-bottom{
+     margin: 20px;
+ }
+ .col-sm-8.border {
+     background-color: white;
+ }
+ @media only screen and (max-width: 720px){
+     .navbar-nav>li{
+         border-right:0px
+     }
+ }

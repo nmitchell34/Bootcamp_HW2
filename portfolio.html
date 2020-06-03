@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
    <!-- Setting up Navbar -->
    <nav class="navbar navbar-expand-sm navbar-light">
     <!-- Applied Container because it looks like the "Your Name" part is lined up with the about me part -->
@@ -38,8 +40,7 @@
         <ul class="navbar-nav ml-auto float-right text-right pr-3">
           <li class="nav-item">
             <a class="nav-link" href="index.html"
-              >About </a
-            >
+              >About </a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</a>
@@ -50,13 +51,85 @@
         </ul>
       </div>
     </div>
-  </nav>
-  <br />
-  <br>
+    </nav>
+    <br>
+    <br>
 
+    <!-- Container for the main portfolio content -->
+   <div class="container mainbody">
+    <!-- <section class="row"> -->
+      <section class="col-sm-8 border">
+        <section class="row border-bottom">
+          <h2>Portfolio</h2>
+        </section>
 
-  <footer>
+        <!-- Top Row of Images -->
+        <section class="row">
+          <section class="col-sm">
+            <div class="thumbnail text-center">
+            <img class="img-responsive" src="./Images/melinda-gimpel-NwtZgzThP-A-unsplash.jpg" alt="A scrabble board">
+                <div class="caption">
+                  <a href="#">Word Guess</a>
+                </div>
+            </div>
+          </section>
+            <section class="col-sm">
+              <div class="thumbnail text-center">
+               <img class="img-responsive" src="./Images/melinda-gimpel-NwtZgzThP-A-unsplash.jpg" alt="A scrabble board">
+                  <div class="caption">
+                    <a href="#">Word Guess</a>
+                  </div>
+              </div>
+           </section>
+      </section>
+
+      <!-- Middle Row of Images -->
+      <section class="row">
+        <section class="col-sm">
+           <div class="thumbnail text-center">
+              <img class="img-responsive" src="./Images/melinda-gimpel-NwtZgzThP-A-unsplash.jpg" alt="A scrabble board">
+                  <div class="caption">
+                    <a href="#">Word Guess</a>
+                  </div>
+           </div>
+        </section>
+       <section class="col-sm">
+        <div class="thumbnail text-center">
+          <img class="img-responsive" src="./Images/melinda-gimpel-NwtZgzThP-A-unsplash.jpg" alt="A scrabble board">
+           <div class="caption">
+            <a href="#">Word Guess</a>
+           </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Last Row of Images -->
+     <section class="row">
+        <section class="col-sm">
+         <div class="thumbnail text-center">
+            <img class="img-responsive" src="./Images/melinda-gimpel-NwtZgzThP-A-unsplash.jpg" alt="A scrabble board">
+              <div class="caption">
+                <a href="#">Word Guess
+                </a>
+              </div>
+          </div>
+          </section>
+        <section class="col-sm">
+            <div class="thumbnail text-center">
+              <img class="img-responsive" src="./Images/melinda-gimpel-NwtZgzThP-A-unsplash.jpg" alt="A scrabble board">
+                <div class="caption">
+                  <a href="#">Word Guess</a>
+                </div>
+            </div>
+          </section>
+        </section>
+        <!-- /section breaks out of main column -->
+      </section>
+      <!-- Breaks out of top row -->
+    <!-- </section> -->
+   </div>   
+   <footer class="fixed-bottom">
     <p class="cprt">@ Copyright</p>
-  </footer>
+   </footer>
   </body>
 </html>

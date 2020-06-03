@@ -2,34 +2,39 @@
   background-color: rgb(84, 177, 146);
   color: white;
   padding: 1rem 1rem;
-  font-size: large;
+  font-size: 34px;
+  font-family: serif;
+  font-weight: 40%;
 }
 
-.navbar {
+.navbar.navbar-expand-sm {
   background-color: white;
   color: gray;
   border-bottom: 1px solid black;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .nav-link {
   color: gray;
 }
 
 body {
-  background-image: url(href="https://www.freepik.com/free-photos-vectors/background")
+  background-image: url("https://www.freepik.com/free-photos-vectors/background")
 }
 /* Backgroundphotocreatedbyrawpixel.com-www.freepik.com */
+.row.test2{
+
+}
 h2 {
-  color: rgb(84, 177, 146);
+  color: rgb(90, 145, 126);
   padding: 10px;
   font-family: serif;
   font-weight: bold;
+  margin-bottom: 10px;
 }
-.col-sm-6 .row {
-  border: 1px solid lightgray;
-  background-color: white;
-}
+
 footer {
-  border-top: 3px solid rgb(84, 177, 146);
+  border-top: 10px solid rgb(84, 177, 146);
   text-align: center;
   background-color: dimgray;
   padding: 20px;
@@ -41,3 +46,16 @@ footer {
   color: white;
   font-size: smaller;
 }
+.rounded.float-left{
+padding-right: 10px;
+
+}
+.navbar-nav>li{
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+.navbar-nav>li:last-child{
+    border: none;
+ }
+ .row.border-bottom{
+     margin: 20px;
+ }

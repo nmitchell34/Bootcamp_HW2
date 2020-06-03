@@ -15,11 +15,11 @@
 
   <body>
     <!-- Setting up Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm">
       <!-- Applied Container because it looks like the "Your Name" part is lined up with the about me part -->
       <div class="container">
         <!-- Changed name to Nick Mitchell, may take link away -->
-        <a class="navbar-brand" href="#">Nick Mitchell</a>
+        <a class="navbar-brand" href="index.html">Nick Mitchell</a>
         <button
           class="navbar-toggler my-2 my-lg-0"
           type="button"
@@ -29,36 +29,45 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-        <!-- Toggler is what appears when screen is shrinked, need to fix icon. -->
+          <!-- Toggler is what appears when screen is shrinked, need to fix icon. -->
           <span class="navbar-toggler-icon navbar-light bg-light"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active mr-auto">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
               <a class="nav-link" href="index.html"
                 >About <span class="sr-only">(current)</span></a
               >
             </li>
-            <li class="nav-item mr-auto">
+            <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio </a>
             </li>
-            <li class="nav-item mr-auto">
+            <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-<br>
-<!-- Main Section: About Me. Will have image and text about me -->
+    <br />
+    <br>
+
+    <!-- Main Section: About Me. Will have image and text about me -->
     <div class="container">
-        <section class="row">
-          <section class="col-sm-6">
-            <section class="row border-bottom">
-              <h2>About Me</h2>
-            </section>
-            <section class="row">
-              <img src="/Images/IMG_7368[6565].jpeg"; height=100px; width=100px/>
+      <section class="row test2">
+        <section class="col-sm-8 border">
+          <section class="row border-bottom">
+            <h2>About Me</h2>
+          </section>
+          <section class="row">
+            <br />
+
+            <section class="col-sm">
+              <img
+                src="Images/IMG_7368[6565].jpeg"
+                class="rounded float-left"
+                width="25%"
+              />
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
                 repellat animi voluptatem consequatur iusto pariatur corporis
@@ -67,11 +76,20 @@
               </p>
             </section>
           </section>
+          <!-- <section class="row"> -->
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+            sit unde non architecto at porro laudantium beatae accusantium
+            reiciendis corrupti consequatur quos ipsam, molestias earum natus
+            eum rem ut pariatur.
+          </p>
+          <!-- </section> -->
         </section>
-      </div>
-<!-- Inserting footer, top border turquoise, small @copyright inside dark gray. Wide border -->
-      <footer>
-        <p class="cprt">@ Copyright</p>
-      </footer>
+      </section>
+    </div>
+    <!-- Inserting footer, top border turquoise, small @copyright inside dark gray. Wide border -->
+    <footer>
+      <p class="cprt">@ Copyright</p>
+    </footer>
   </body>
 </html>

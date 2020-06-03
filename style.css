@@ -19,12 +19,9 @@
 }
 
 body {
-  background-image: url("https://www.freepik.com/free-photos-vectors/background")
+    background-image: url('./Images/gtpfbg.jpg')
 }
-/* Backgroundphotocreatedbyrawpixel.com-www.freepik.com */
-.row.test2{
 
-}
 h2 {
   color: rgb(90, 145, 126);
   padding: 10px;
@@ -58,4 +55,7 @@ padding-right: 10px;
  }
  .row.border-bottom{
      margin: 20px;
+ }
+ .col-sm-8.border {
+     background-color: white;
  }

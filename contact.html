@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact Me</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -12,5 +12,43 @@
     />
     <link rel="stylesheet" href="style.css">
   </head>
-  <body></body>
+  <body>
+    <!-- Setting up Navbar -->
+   <nav class="navbar navbar-expand-sm">
+    <!-- Applied Container because it looks like the "Your Name" part is lined up with the about me part -->
+    <div class="container">
+      <!-- Changed name to Nick Mitchell, may take link away -->
+      <a class="navbar-brand" href="index.html">Nick Mitchell</a>
+      <button
+        class="navbar-toggler my-2 my-lg-0"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <!-- Toggler is what appears when screen is shrinked, need to fix icon. -->
+        <span class="navbar-toggler-icon navbar-light bg-light"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+
+
+  </body>
 </html>

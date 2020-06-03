@@ -5,9 +5,10 @@
   font-size: 34px;
   font-family: serif;
   font-weight: 40%;
+  margin: 0px;
 }
 
-.navbar.navbar-expand-sm {
+.navbar.navbar-expand-sm.navbar-light {
   background-color: white;
   color: gray;
   border-bottom: 1px solid lightgray;

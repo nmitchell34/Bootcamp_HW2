@@ -1,10 +1,9 @@
 .navbar-brand {
   background-color: rgb(84, 177, 146);
-  color: white;
+  color: white !important;
   padding: 1rem 1rem;
   font-size: 34px;
   font-family: serif;
-  font-weight: 40%;
   margin: 0px;
 }
 
@@ -60,6 +59,11 @@ padding-right: 10px;
  .col-sm-8.border {
      background-color: white;
  }
+
+ .row{
+    margin: 0px;
+}
+
  @media only screen and (max-width: 575px){
      .navbar-nav>li{
          border-right:0px

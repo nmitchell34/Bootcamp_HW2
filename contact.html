@@ -39,7 +39,10 @@
               <a class="nav-link" href="./index.html">About </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" href="./Files/Nicholas C Mitchell - BSMSE Georgia Tech 2020.pdf"
+              <a
+                class="nav-link"
+                target="_blank"
+                href="./Files/Nicholas C Mitchell - BSMSE Georgia Tech 2020.pdf"
                 >Resume <span class="sr-only">(current)</span></a
               >
             </li>
@@ -56,7 +59,7 @@
       </div>
     </nav>
     <br />
-    <br />
+    <!-- <br /> -->
 
     <div class="container">
       <section class="row">
@@ -68,11 +71,21 @@
             <br />
 
             <section class="col-sm">
-              <form>
+              <!-- <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLScEt40eugZ_n0nvB30QPrYaYh8Wsjo7pZzdVvnGoKLe6z3JDA/viewform?embedded=true"
+                width="640"
+                height="709"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0"
+                >Loading…</iframe
+              > -->
+              <form action="mailto:ncm297@gmail.com" method="POST" enctype="text/plain">
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Name</label>
                   <input
                     type="name"
+                    name="Name"
                     class="form-control"
                     id="exampleFormControlInput1"
                     placeholder="John Smith"
@@ -82,6 +95,7 @@
                   <label for="exampleFormControlInput1">Email address</label>
                   <input
                     type="email"
+                    name="Email"
                     class="form-control"
                     id="exampleFormControlInput1"
                     placeholder="name@example.com"
@@ -90,12 +104,13 @@
                 <div class="form-group">
                   <label for="exampleFormControlTextarea1">Message</label>
                   <textarea
+                    name="Message"
                     class="form-control"
                     id="exampleFormControlTextarea1"
                     rows="3"
                   ></textarea>
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" value="send" class="btn btn-default">Submit</button>
               </form>
               <br />
             </section>

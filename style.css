@@ -74,6 +74,9 @@ padding-bottom: 15px;
  .row{
     margin: 0px;
 }
+.row.items{
+  margin: .5rem;
+}
 
 .btn.btn-default{
   background-color: rgb(84, 177, 146);
@@ -86,6 +89,7 @@ a {
 
 .thumbnail.text-center{
   position: relative;
+  height: 100%;
 }
 
 .caption{
